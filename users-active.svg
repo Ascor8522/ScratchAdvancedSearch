@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     id="svg8"
+     version="1.1"
+     viewBox="0 0 33.866666 33.866668"
+     height="128"
+     width="128">
+    <defs
+         id="defs2" />
+    <metadata
+         id="metadata5">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title></dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g
+         transform="translate(0,-263.13332)"
+         id="layer1">
+        <circle
+             r="7.8430061"
+             cy="272.715"
+             cx="16.914434"
+             id="path3742"
+             style="fill:#26d9bb;fill-opacity:1;stroke:none;stroke-width:3.83076954;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+        <g
+             transform="matrix(0.06201172,0,0,0.06201172,1.0459308,264.19165)"
+             id="g3730">
+            <path
+                 style="fill:#22B296"
+                 d="M 256,274.1 C 180.4,274.1 118.9,212.6 118.9,137 118.9,61.4 180.4,0 256,0 c 75.6,0 137.1,61.5 137.1,137.1 0,75.6 -61.5,137 -137.1,137 z m 0,-253.7 c -64.3,0 -116.6,52.3 -116.6,116.6 0,64.3 52.3,116.7 116.6,116.7 64.3,0 116.6,-52.3 116.6,-116.6 C 372.6,72.8 320.3,20.4 256,20.4 Z"
+                 id="path3726" />
+            <path
+                 style="fill:#22B296"
+                 d="m 493.9,512 c -5.6,0 -10.2,-4.6 -10.2,-10.2 0,-125.5 -102.1,-227.6 -227.6,-227.6 -125.5,0 -227.6,102.1 -227.6,227.6 0,5.6 -4.6,10.2 -10.2,10.2 -5.6,0 -10.2,-4.6 -10.2,-10.2 0,-66.3 25.8,-128.6 72.7,-175.4 46.9,-46.8 109.2,-72.7 175.4,-72.7 66.2,0 128.6,25.8 175.4,72.7 46.8,46.9 72.7,109.2 72.7,175.4 -0.2,5.6 -4.8,10.2 -10.4,10.2 z"
+                 id="path3728" />
+        </g>
+    </g>
+</svg>
