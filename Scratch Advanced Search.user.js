@@ -34,6 +34,8 @@
     let searchButtonsBar = document.getElementsByClassName("sub-nav tabs")[0];
     let linkUsers = document.createElement("a");
     linkUsers.href = "#";
+    linkUsers.addEventListener("click", searchUser());
+
     let iconUsers = document.createElement("img");
     iconUsers.classList.add("tab-icon");
     iconUsers.classList.add("users");
@@ -49,3 +51,9 @@
 
 console.log(searchButtonsBar);
 })();
+
+function searchUser() {
+    const url = new URL(window.location.href);
+    const query = url.searchParams.get("q");
+    window.history.replaceState(history.state, "Scratch - Search", "users?q=" + query);
+}
