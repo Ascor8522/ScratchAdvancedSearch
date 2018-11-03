@@ -6,17 +6,19 @@
 // @author       Smrman
 // @match        *://scratch.mit.edu/search/*
 // @connect      *://www.googleapis.com/customsearch/*
+
 // @homepageURL
 // @iconURL
 // @icon64URL
 
-// @updateURL
-// @downloadURL
-// @supportURL
+// @updateURL    https://smrman.github.io/ScratchAdvancedSearch/Scratch%20Advanced%20Search.user.js
+// @downloadURL  https://smrman.github.io/ScratchAdvancedSearch/Scratch%20Advanced%20Search.user.js
+// @supportURL   https://github.com/Smrman/ScratchAdvancedSearch/issues/new
 
 
 // @require
-// @resource
+// @resource     https://smrman.github.io/ScratchAdvancedSearch/users-active.svg
+// @resource     https://smrman.github.io/ScratchAdvancedSearch/users-inactive.svg
 
 // @run-at document-end
 
@@ -26,7 +28,8 @@
 
 (function() {
     //'use strict';
-    const usersTabIcon = "";
+    const usersTabIconActive = "https://smrman.github.io/ScratchAdvancedSearch/users-active.svg";
+    const usersTabIconInactive = "https://smrman.github.io/ScratchAdvancedSearch/users-inactive.svg";
 
     let searchButtonsBar = document.getElementsByClassName("sub-nav tabs")[0];
     let linkUsers = document.createElement("a");
@@ -34,7 +37,7 @@
     let iconUsers = document.createElement("img");
     iconUsers.classList.add("tab-icon");
     iconUsers.classList.add("users");
-    iconUsers.src = usersTabIcon;
+    iconUsers.src = usersTabIconInactive;
     let spanUsers = document.createElement("span");
     spanUsers.innerHTML = "Les Utilisateurs";
     let liUsers = document.createElement("li");
